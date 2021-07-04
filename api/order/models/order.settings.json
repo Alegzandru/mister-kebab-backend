@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product": {
+      "model": "products"
+    },
+    "toppings": {
+      "collection": "topping"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "excludings": {
+      "collection": "excluding"
+    }
+  }
+}

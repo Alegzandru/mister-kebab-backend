@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "name": "client"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "status_plata": {
+      "type": "enumeration",
+      "enum": [
+        "platit",
+        "nu_a_fost_platit"
+      ]
+    },
+    "status_livrare": {
+      "type": "enumeration",
+      "enum": [
+        "livrat",
+        "nu_a_fost_livrat"
+      ]
+    },
+    "address": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "mod_de_plata": {
+      "type": "enumeration",
+      "enum": [
+        "cash",
+        "card"
+      ]
+    },
+    "mod_de_livrare": {
+      "type": "enumeration",
+      "enum": [
+        "preluare_din_local",
+        "livrare"
+      ]
+    },
+    "price": {
+      "type": "integer"
+    },
+    "commentary": {
+      "type": "text"
+    },
+    "orders": {
+      "collection": "order"
+    }
+  }
+}

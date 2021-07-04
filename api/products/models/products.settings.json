@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "products",
   "info": {
-    "name": "Products",
+    "name": "Product",
     "description": ""
   },
   "options": {
@@ -29,6 +29,15 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "weight": {
+      "type": "integer"
+    },
+    "ingredients": {
+      "type": "text"
+    },
+    "toppings": {
+      "collection": "topping"
     }
   }
 }
