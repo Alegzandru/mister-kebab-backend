@@ -41,6 +41,10 @@
     },
     "ingredients": {
       "collection": "carne"
+    },
+    "subcategory": {
+      "via": "products",
+      "model": "category"
     }
   }
 }

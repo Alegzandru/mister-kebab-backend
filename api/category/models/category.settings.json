@@ -16,7 +16,8 @@
       "type": "string"
     },
     "products": {
-      "collection": "products"
+      "collection": "products",
+      "via": "subcategory"
     }
   }
 }
