@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "categories",
+  "collectionName": "carnes",
   "info": {
-    "name": "subcategory",
+    "name": "main_ingredient",
     "description": ""
   },
   "options": {
@@ -14,9 +14,6 @@
   "attributes": {
     "name": {
       "type": "string"
-    },
-    "products": {
-      "collection": "products"
     }
   }
 }

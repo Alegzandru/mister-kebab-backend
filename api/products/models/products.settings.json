@@ -33,11 +33,14 @@
     "weight": {
       "type": "integer"
     },
-    "ingredients": {
+    "description": {
       "type": "text"
     },
     "toppings": {
       "collection": "topping"
+    },
+    "ingredients": {
+      "collection": "carne"
     }
   }
 }
