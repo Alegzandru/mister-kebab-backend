@@ -38,11 +38,13 @@
     },
     "toppings": {
       "collection": "topping",
-      "via": "product"
+      "via": "products",
+      "dominant": true
     },
     "ingredients": {
       "collection": "carne",
-      "via": "product"
+      "via": "products",
+      "dominant": true
     },
     "subcategory": {
       "via": "products",

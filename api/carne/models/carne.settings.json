@@ -15,9 +15,9 @@
     "name": {
       "type": "string"
     },
-    "product": {
+    "products": {
       "via": "ingredients",
-      "model": "products"
+      "collection": "products"
     }
   }
 }
