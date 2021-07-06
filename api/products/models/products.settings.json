@@ -37,10 +37,12 @@
       "type": "text"
     },
     "toppings": {
-      "collection": "topping"
+      "collection": "topping",
+      "via": "product"
     },
     "ingredients": {
-      "collection": "carne"
+      "collection": "carne",
+      "via": "product"
     },
     "subcategory": {
       "via": "products",

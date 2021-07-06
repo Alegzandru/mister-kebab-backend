@@ -16,6 +16,10 @@
     },
     "price": {
       "type": "integer"
+    },
+    "product": {
+      "via": "toppings",
+      "model": "products"
     }
   }
 }
