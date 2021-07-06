@@ -49,6 +49,11 @@
     "subcategory": {
       "via": "products",
       "model": "category"
+    },
+    "excludings": {
+      "collection": "excluding",
+      "via": "products",
+      "dominant": true
     }
   }
 }

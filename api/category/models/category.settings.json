@@ -18,6 +18,11 @@
     "products": {
       "via": "subcategory",
       "collection": "products"
+    },
+    "excludings": {
+      "collection": "excluding",
+      "via": "subcategories",
+      "dominant": true
     }
   }
 }

@@ -13,6 +13,14 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "subcategories": {
+      "via": "excludings",
+      "collection": "category"
+    },
+    "products": {
+      "via": "excludings",
+      "collection": "products"
     }
   }
 }
