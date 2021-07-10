@@ -20,9 +20,12 @@
       "collection": "products"
     },
     "excludings": {
-      "collection": "excluding",
       "via": "subcategories",
+      "collection": "excluding",
       "dominant": true
+    },
+    "nameru": {
+      "type": "string"
     }
   }
 }

@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "excludings",
   "info": {
-    "name": "excluding"
+    "name": "excluding",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -21,6 +22,9 @@
     "products": {
       "via": "excludings",
       "collection": "products"
+    },
+    "nameru": {
+      "type": "string"
     }
   }
 }

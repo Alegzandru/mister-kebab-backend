@@ -37,8 +37,8 @@
       "type": "text"
     },
     "toppings": {
-      "collection": "topping",
       "via": "products",
+      "collection": "topping",
       "dominant": true
     },
     "ingredients": {
@@ -51,9 +51,15 @@
       "model": "category"
     },
     "excludings": {
-      "collection": "excluding",
       "via": "products",
+      "collection": "excluding",
       "dominant": true
+    },
+    "nameru": {
+      "type": "string"
+    },
+    "descriptionru": {
+      "type": "text"
     }
   }
 }
