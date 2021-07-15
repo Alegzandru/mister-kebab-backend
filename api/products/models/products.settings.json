@@ -42,8 +42,8 @@
       "dominant": true
     },
     "ingredients": {
-      "collection": "carne",
       "via": "products",
+      "collection": "carne",
       "dominant": true
     },
     "subcategory": {

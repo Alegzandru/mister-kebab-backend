@@ -29,6 +29,10 @@
     },
     "order": {
       "type": "integer"
+    },
+    "big_category": {
+      "via": "subcategories",
+      "model": "big-category"
     }
   }
 }

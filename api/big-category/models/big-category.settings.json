@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "big_categories",
+  "info": {
+    "name": "big_category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "subcategories": {
+      "collection": "category",
+      "via": "big_category"
+    }
+  }
+}
