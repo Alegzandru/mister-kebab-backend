@@ -16,8 +16,8 @@
       "type": "string"
     },
     "subcategories": {
-      "collection": "category",
-      "via": "big_category"
+      "via": "big_category",
+      "collection": "category"
     },
     "order": {
       "type": "integer"

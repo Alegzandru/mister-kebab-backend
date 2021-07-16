@@ -33,6 +33,9 @@
     "big_category": {
       "via": "subcategories",
       "model": "big-category"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
