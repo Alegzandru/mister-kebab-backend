@@ -60,6 +60,9 @@
     },
     "descriptionru": {
       "type": "text"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
