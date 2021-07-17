@@ -60,6 +60,15 @@
     },
     "descriptionru": {
       "type": "text"
+    },
+    "related_products": {
+      "collection": "products"
+    },
+    "combo_snacks": {
+      "collection": "products"
+    },
+    "combo_drinks": {
+      "collection": "products"
     }
   }
 }
