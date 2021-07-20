@@ -36,6 +36,9 @@
     },
     "slug": {
       "type": "string"
+    },
+    "recomended_subcategories": {
+      "collection": "category"
     }
   }
 }
