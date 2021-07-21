@@ -12,7 +12,7 @@ module.exports = {
 
     ctx.query = {
       ...ctx.query,
-      _limit: 200,
+      _limit: -1,
     };
 
     if (ctx.query._q) {
