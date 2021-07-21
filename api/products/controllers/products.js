@@ -12,15 +12,15 @@ module.exports = {
 
     ctx.query = {
       ...ctx.query,
-      _limit: -1,
+      _limit: 200,
     };
 
     if (ctx.query._q) {
-      entities = await strapi.services.restaurant.search(ctx.query);
+      entities = await strapi.services.products.search(ctx.query);
     } else {
-      entities = await strapi.services.restaurant.find(ctx.query);
+      entities = await strapi.services.products.find(ctx.query);
     }
 
-    return entities.map(entity => sanitizeEntity(entity, { model: strapi.models.restaurant }));
+    return entities.map(entity => sanitizeEntity(entity, { model: strapi.models.products }));
   },
 };
