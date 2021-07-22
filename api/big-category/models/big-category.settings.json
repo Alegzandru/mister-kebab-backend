@@ -21,6 +21,9 @@
     },
     "order": {
       "type": "integer"
+    },
+    "nameru": {
+      "type": "string"
     }
   }
 }
