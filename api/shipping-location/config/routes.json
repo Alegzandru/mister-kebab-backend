@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/shipping-locations",
+      "handler": "shipping-location.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shipping-locations/count",
+      "handler": "shipping-location.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shipping-locations/:id",
+      "handler": "shipping-location.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/shipping-locations",
+      "handler": "shipping-location.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/shipping-locations/:id",
+      "handler": "shipping-location.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/shipping-locations/:id",
+      "handler": "shipping-location.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

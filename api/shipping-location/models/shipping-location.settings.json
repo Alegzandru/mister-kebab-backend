@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shipping_locations",
+  "info": {
+    "name": "shipping_location"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    }
+  }
+}
