@@ -23,6 +23,9 @@
     },
     "excludings": {
       "collection": "excluding"
+    },
+    "combo_drink": {
+      "model": "products"
     }
   }
 }
