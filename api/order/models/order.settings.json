@@ -26,6 +26,9 @@
     },
     "combo_drink": {
       "model": "products"
+    },
+    "number": {
+      "type": "integer"
     }
   }
 }
