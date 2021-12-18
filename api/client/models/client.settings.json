@@ -65,16 +65,16 @@
     "masa": {
       "type": "integer"
     },
-    "Bloc": {
+    "bloc": {
       "type": "string"
     },
-    "Scara": {
+    "scara": {
       "type": "string"
     },
-    "Etaj": {
+    "etaj": {
       "type": "string"
     },
-    "Apartament": {
+    "apartament": {
       "type": "string"
     }
   }
