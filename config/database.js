@@ -1,5 +1,7 @@
 const parse = require('pg-connection-string').parse;
 
+// added for new deploy
+
 module.exports = ({ env }) => {
 
   if(env('NODE_ENV') === 'production'){
